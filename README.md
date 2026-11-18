@@ -62,7 +62,7 @@ ko-tech-writer의 원본은 FH에 있다. 이 레포에 있는 사본은 FH에�
 bash scripts/regen_from_fh.sh ../forge-harness
 ```
 
-이 규칙이 실제로 작동하는지는 `bash scripts/test_regen_lanes.sh ../forge-harness`로 확인한다. 임시 사본에서 생성 파일 하나를 손으로 고치면 동기화 검사가 1로 바뀌고, 다시 생성하면 0으로 돌아오는지 본다.
+이 규칙이 실제로 작동하는지는 `bash scripts/test_regen_lanes.sh ../forge-harness`로 확인한다. 임시 사본에서 생성 파일 하나를 손으로 고치면 동기화 검사가 1로 바뀌고, 다시 생성하면 0으로 돌아오는지 본다. 같은 명령이 재생성 스크립트의 실패 처리도 확인한다. 복사 중 `tar`가 실패하면 아무것도 바꾸지 않고 2로 끝나는지, 공백과 한글이 든 파일 이름도 지우고 스테이징하는지 본다.
 
 ## FH 사본과 맞추기
 
