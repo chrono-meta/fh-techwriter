@@ -1,0 +1,60 @@
+openhuman_README.ja-JP.md:1:1: 【テクニカルライティング品質分析】この文書で3件の改善提案が見つかりました [内訳: 簡潔性: 1件, 明確性: 1件, 具体性: 1件]。効果的なテクニカルライティングの7つのC（Clear, Concise, Correct, Coherent, Concrete, Complete, Courteous）の原則に基づいて見直しを検討してください。詳細なガイドライン: https://github.com/textlint-ja/textlint-rule-preset-ai-writing/blob/main/docs/tech-writing-guidelines.md [Error/@textlint-ja/ai-writing/ai-tech-writing-guideline]
+openhuman_README.ja-JP.md:65:3825: Line 65 sentence length(137) exceeds the maximum sentence length of 100.
+Over 37 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:69:15: Disallow to use "?". [Error/ja-technical-writing/no-exclamation-question-mark]
+openhuman_README.ja-JP.md:73:325: 一つの文で"、"を4つ以上使用しています [Error/ja-technical-writing/max-ten]
+openhuman_README.ja-JP.md:73:4270: Line 73 sentence length(117) exceeds the maximum sentence length of 100.
+Over 17 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:75:1: リストアイテムで強調（**）とコロン（:）の組み合わせは機械的な印象を与える可能性があります。より自然な表現を検討してください。 [Error/@textlint-ja/ai-writing/no-ai-list-formatting]
+openhuman_README.ja-JP.md:75:3: Line 75 sentence length(114) exceeds the maximum sentence length of 100.
+Over 14 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:77:205: 【簡潔性】冗長な義務表現が検出されました。「してください」または「します」への直接的な表現を検討してください。 [Error/@textlint-ja/ai-writing/ai-tech-writing-guideline]
+openhuman_README.ja-JP.md:79:1: リストアイテムで強調（**）とコロン（:）の組み合わせは機械的な印象を与える可能性があります。より自然な表現を検討してください。 [Error/@textlint-ja/ai-writing/no-ai-list-formatting]
+openhuman_README.ja-JP.md:81:1: リストアイテムで強調（**）とコロン（:）の組み合わせは機械的な印象を与える可能性があります。より自然な表現を検討してください。 [Error/@textlint-ja/ai-writing/no-ai-list-formatting]
+openhuman_README.ja-JP.md:81:3: Line 81 sentence length(178) exceeds the maximum sentence length of 100.
+Over 78 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:81:421: 【具体性】曖昧な判断表現が検出されました。何を基準として適切なのか、具体的な条件や基準の明示を検討してください。 [Error/@textlint-ja/ai-writing/ai-tech-writing-guideline]
+openhuman_README.ja-JP.md:81:469: 一つ => 1つ
+数量を表現し、数を数えられるものは算用数字を使用します。任意の数に置き換えても通用する語句がこれに該当します。 [Error/ja-technical-writing/arabic-kanji-numbers]
+openhuman_README.ja-JP.md:83:1: リストアイテムで強調（**）とコロン（:）の組み合わせは機械的な印象を与える可能性があります。より自然な表現を検討してください。 [Error/@textlint-ja/ai-writing/no-ai-list-formatting]
+openhuman_README.ja-JP.md:83:150: 一文に二回以上利用されている助詞 "に" がみつかりました。
+
+次の助詞が連続しているため、文を読みにくくしています。
+
+- "に"
+- "に"
+
+同じ助詞を連続して利用しない、文の中で順番を入れ替える、文を分割するなどを検討してください。
+ [Error/ja-technical-writing/no-doubled-joshi]
+openhuman_README.ja-JP.md:83:232: 【明確性】受動的で抽象的な表現が検出されました。具体的な動詞を使った能動態への変更を検討してください（例：「実行する」「処理する」）。 [Error/@textlint-ja/ai-writing/ai-tech-writing-guideline]
+openhuman_README.ja-JP.md:83:276: 「完全に」という絶対的な表現は過度に断定的である可能性があります。「多くの場合」などの表現を検討してください。 [Error/@textlint-ja/ai-writing/no-ai-hype-expressions]
+openhuman_README.ja-JP.md:85:3: Line 85 sentence length(106) exceeds the maximum sentence length of 100.
+Over 6 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:89:109: 文末が"。"で終わっていません。
+理由: 句点は文の境界を明確にし、読み手の理解を助けます
+修正: 適切な文末表現で文を完結させ、句点を追加してください
+例: 「〜です。」「〜ます。」「〜でした。」など [Error/ja-technical-writing/ja-no-mixed-period]
+openhuman_README.ja-JP.md:89:109: 「新しいコントリビューターの方は、まず CONTRIBUTING.md で fork/PR ワークフローとローカル検証コマンドを確認してください。最短経路は以下のとおりです:」のような述語とコロンで終わるパターンは、読み手によっては英語の構文を直訳したような印象を与える場合があります。「次のように〜します。」のような自然な日本語表現を検討してください。 [Error/@textlint-ja/ai-writing/no-ai-colon-continuation]
+openhuman_README.ja-JP.md:91:7071: Line 91 sentence length(114) exceeds the maximum sentence length of 100.
+Over 14 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:92:7192: Line 92 sentence length(113) exceeds the maximum sentence length of 100.
+Over 13 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:93:7312: Line 93 sentence length(171) exceeds the maximum sentence length of 100.
+Over 71 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:107:347: 一文に二回以上利用されている助詞 "に" がみつかりました。
+
+次の助詞が連続しているため、文を読みにくくしています。
+
+- "に"
+- "に"
+
+同じ助詞を連続して利用しない、文の中で順番を入れ替える、文を分割するなどを検討してください。
+ [Error/ja-technical-writing/no-doubled-joshi]
+openhuman_README.ja-JP.md:107:8215: Line 107 sentence length(121) exceeds the maximum sentence length of 100.
+Over 21 characters. [Error/ja-technical-writing/sentence-length]
+openhuman_README.ja-JP.md:111:88: Disallow to use "?". [Error/ja-technical-writing/no-exclamation-question-mark]
+openhuman_README.ja-JP.md:111:143: Line 111 sentence length(117) exceeds the maximum sentence length of 100.
+Over 17 characters. [Error/ja-technical-writing/sentence-length]
+
+27 problems
+pack=ja level=wrapper-only findings=27 file=openhuman_README.ja-JP.md

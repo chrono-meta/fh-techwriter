@@ -1,0 +1,6 @@
+node_modules/
+# Vale packages are fetched by `vale sync` (see packs/en/PACK.md)
+packs/en/styles/Google/
+packs/en/styles/write-good/
+.DS_Store
+__pycache__/

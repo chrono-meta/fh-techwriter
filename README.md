@@ -1,0 +1,121 @@
+# fh-techwriter
+
+한국어 · 영어 · 일본어 기술 문서를 점검하는 도구 모음이다. [forge-harness](https://github.com/chrono-meta/forge-harness)(FH)의 한국어 기술 문서 스킬 `ko-tech-writer`를 떼어 내고, 영어와 일본어에는 기존 린터를 감싼 팩을 붙였다.
+
+먼저 알아 둘 것이 있다. 세 언어의 수준이 같지 않다.
+
+- **한국어(ko)는 문서 한 편으로 쟀다.** 기술문서 한 편을 17라운드에 걸쳐 고친 기록에서 저자가 실제로 고친 문장의 부류를 뽑았고, 그 부류를 스캔 레인으로 만들었다. 이 레인이 다른 문서에서 얼마나 맞는지는 아직 재지 않았다.
+- **영어(en) · 일본어(ja)는 린터를 감싸기만 했다.** 번역투를 얼마나 걷어 내는지는 재지 않았다(UNMEASURED). 린터가 내는 지적은 그대로 보여 준다.
+
+| 팩 | 수준 | 감싸는 도구 | 문서 |
+|---|---|---|---|
+| ko | 문서 한 편으로 실측한 부류 + known-pair 보정 레인 | 자체 스캐너 `scripts/ko_tech_writer_calibrate.py` | [`packs/ko/PACK.md`](packs/ko/PACK.md) |
+| en | 린터 래퍼 — 번역투 제거 효과 UNMEASURED | Vale (Google + write-good) | [`packs/en/PACK.md`](packs/en/PACK.md) |
+| ja | 린터 래퍼 — 번역투 제거 효과 UNMEASURED | textlint (ja-technical-writing + ai-writing) | [`packs/ja/PACK.md`](packs/ja/PACK.md) |
+
+## 실행
+
+세 팩은 같은 방식으로 돈다. 출력은 고칠 후보 목록이다. 결함으로 확정된 목록이 아니다.
+
+```bash
+bash packs/ko/run.sh <file>
+```
+
+종료 코드는 세 가지다.
+
+| 코드 | 뜻 |
+|---|---|
+| 0 | 지적 없음 |
+| 1 | 지적 있음. 사람이 하나씩 보고 고칠지 정한다 |
+| 2 | UNMEASURED. 도구가 없거나 실패했다. 통과로 읽으면 안 된다 |
+
+## 준비
+
+필요한 것: Python 3, Node.js(ja 팩), [Vale](https://vale.sh)(en 팩).
+
+```bash
+npm ci
+```
+
+```bash
+(cd packs/en && vale sync)
+```
+
+```bash
+bash scripts/calibrate_packs.sh
+```
+
+마지막 명령은 팩마다 세 가지를 확인한다. 걸려야 할 파일이 걸리는지, 걸리면 안 될 파일이 지나가는지, 도구가 없을 때 exit 2가 나오는지다. rc=0이 나와야 팩을 믿을 수 있다. ko 레인을 하나씩 보정하려면 `bash scripts/test_ko_tech_writer_lanes.sh`를 돌린다.
+
+## 단일 원본 규칙
+
+ko-tech-writer의 원본은 FH에 있다. 이 레포에 있는 사본은 FH에서 생성한 것이다. **고칠 때는 FH에서 고치고, 여기서 고치지 않는다.** 여기서 고친 내용은 다음 재생성 때 사라진다.
+
+| 구분 | 경로 |
+|---|---|
+| FH에서 생성(여기서 고치지 않음) | `plugins/fh-commons/skills/ko-tech-writer/`, `scripts/ko_tech_writer_calibrate.py`, `scripts/test_ko_tech_writer_lanes.sh`, `.fh-export/` |
+| 이 레포가 관리 | `packs/`, `core/`, `birth/`, 나머지 `scripts/`, README, LICENSE |
+
+마지막으로 생성한 FH 커밋은 [`GENERATED_FROM_FH.txt`](GENERATED_FROM_FH.txt)에 적혀 있다. FH가 바뀌면 아래 명령으로 다시 생성한다. 이 명령은 FH의 `fh_module_check.py export`를 돌리고, 생성 경로만 덮어쓴 뒤 동기화 검사와 ko 레인을 돌린다. 둘 다 0이어야 한다.
+
+```bash
+bash scripts/regen_from_fh.sh ../forge-harness
+```
+
+이 규칙이 실제로 작동하는지는 `bash scripts/test_regen_lanes.sh ../forge-harness`로 확인한다. 임시 사본에서 생성 파일 하나를 손으로 고치면 동기화 검사가 1로 바뀌고, 다시 생성하면 0으로 돌아오는지 본다.
+
+## FH 사본과 맞추기
+
+두 사본이 갈라졌는지 보려면 FH 체크아웃 경로를 주고 아래 명령을 돌린다. 경로를 생략하면 `$FH_HOME`, 그다음 `$HOME/projects/forge-harness`를 본다.
+
+```bash
+bash scripts/check_fh_sync.sh ../forge-harness
+```
+
+종료 코드는 네 가지다.
+
+| 코드 | 뜻 |
+|---|---|
+| 0 | 두 사본이 같다 |
+| 1 | 갈라졌다. 갈라진 파일 이름을 찍는다 |
+| 2 | UNMEASURED. FH 체크아웃이나 기준 ref가 없다 |
+| 3 | FH 쪽 사본이 사라졌다. 이 검사를 없앨 때다 |
+
+## 더 읽을 것
+
+- 무엇을 성공으로 보는가, 하지 않는 일, 이 도구가 틀렸다는 신호: [`SOUL.md`](SOUL.md)
+- 첫 실행 결과(언어별 표본 점검과 놓친 것. 표본 30건, 판정자 한 명이라 정밀도 추정치는 아니다): [`BIRTH_REPORT.md`](BIRTH_REPORT.md)
+- 리뷰 패널과 라운드 운용법: [`core/PANEL_AND_ROUNDS.md`](core/PANEL_AND_ROUNDS.md)
+- FH에 남겨 둔 규칙(숫자 · 주장 게이트 등): [`core/GOVERNANCE_IN_FH.md`](core/GOVERNANCE_IN_FH.md)
+
+## 레이아웃
+
+- ko-tech-writer 0.1.0 단독판: FH에서 생성한다(위 단일 원본 규칙). FH와 경로를 맞추려고 아래 자리에 그대로 둔다.
+  - `plugins/fh-commons/skills/ko-tech-writer/`
+  - `scripts/ko_tech_writer_calibrate.py`, `scripts/test_ko_tech_writer_lanes.sh`
+  - `.fh-export/`
+- `packs/<lang>/`: 래퍼 스크립트, 린터 설정, 보정용 파일 짝, 팩 설명.
+- `birth/`: 첫 실행의 원출력과 입력 해시.
+
+## 라이선스
+
+[MIT](LICENSE). Vale 스타일과 textlint 규칙은 이 레포에 들어 있지 않다. `vale sync`와 `npm ci`가 각 프로젝트에서 받아 오며, 라이선스도 각 프로젝트를 따른다.
+
+---
+
+## English
+
+fh-techwriter checks technical prose in Korean, English and Japanese. It takes the Korean technical-writing skill `ko-tech-writer` out of [forge-harness](https://github.com/chrono-meta/forge-harness) and adds thin wrapper packs around existing linters for English and Japanese.
+
+The three packs are not at the same level:
+
+- **Korean (`ko`) is measured on one document.** Its scan lanes come from the classes of sentences an author actually changed while revising one technical document over 17 rounds. Precision on other documents has not been measured.
+- **English (`en`, Vale: Google + write-good) and Japanese (`ja`, textlint: ja-technical-writing + ai-writing) are wrapper-only.** Their effect on translationese is UNMEASURED, and the packs make no claim about it.
+
+Every pack runs the same way: `bash packs/<lang>/run.sh <file>` exits 0 (no findings), 1 (findings: candidates for a human to review, not confirmed defects) or 2 (UNMEASURED: the tool is missing or failed, which is never a pass). To set up, run `npm ci`, then `(cd packs/en && vale sync)`, then `bash scripts/calibrate_packs.sh`, which must exit 0. First-run results are in `BIRTH_REPORT.md` (Korean): a hand review of 30 sampled findings by a single judge, with what each pack missed. It is not a precision estimate.
+
+Single source: the canon of `ko-tech-writer` lives in forge-harness. The copy here (`plugins/fh-commons/skills/ko-tech-writer/`, `scripts/ko_tech_writer_*`, `scripts/test_ko_tech_writer_lanes.sh`, `.fh-export/`) is generated by `bash scripts/regen_from_fh.sh <forge-harness checkout>`. Edit it in forge-harness, not here. `GENERATED_FROM_FH.txt` records the source commit, and `bash scripts/check_fh_sync.sh` must exit 0.
+
+Language-independent rules (the number/claim gate, the post-rewrite check, separating reader text from internal audit vocabulary, a revision loop that stops on zero changes with a round cap) stay in forge-harness and are not rebuilt here.
+
+Licensed under [MIT](LICENSE). This repository does not vendor Vale styles or textlint rules. `vale sync` and `npm ci` fetch them under their own licenses.

@@ -1,0 +1,4 @@
+ko PASS must_flag=1 must_not_flag=0 missing_input=2 tool_absent=2
+en PASS must_flag=1 must_not_flag=0 missing_input=2 tool_absent=2
+ja PASS must_flag=1 must_not_flag=0 missing_input=2 tool_absent=2
+ko-K PASS K1=3/3 K2=1/1 must_not_flag=0

@@ -1,0 +1,120 @@
+README.md:2:113:Google.EmDash:Don't put a space before or after a dash.
+README.md:2:184:Google.EmDash:Don't put a space before or after a dash.
+README.md:6:146:Google.EmDash:Don't put a space before or after a dash.
+README.md:9:216:Google.EmDash:Don't put a space before or after a dash.
+README.md:19:3:Google.Headings:'forge-harness (FH)' should use sentence-style capitalization.
+README.md:21:125:Google.EmDash:Don't put a space before or after a dash.
+README.md:21:171:Google.EmDash:Don't put a space before or after a dash.
+README.md:32:8:Google.Contractions:Use 'it's' instead of 'it is'.
+README.md:32:8:write-good.TooWordy:'it is' is too wordy.
+README.md:34:79:Google.Passive:In general, use active voice instead of passive voice ('are tired').
+README.md:34:79:write-good.Passive:'are tired' may be passive voice. Use active voice if you can.
+README.md:41:36:Google.Passive:In general, use active voice instead of passive voice ('is judged').
+README.md:41:36:write-good.Passive:'is judged' may be passive voice. Use active voice if you can.
+README.md:41:253:Google.Acronyms:Spell out 'GIF', if it's unfamiliar to the audience.
+README.md:41:343:Google.Colons:'Evidence' should be in lowercase.
+README.md:42:167:Google.Passive:In general, use active voice instead of passive voice ('is updated').
+README.md:42:167:write-good.Passive:'is updated' may be passive voice. Use active voice if you can.
+README.md:43:77:write-good.TooWordy:'accelerate' is too wordy.
+README.md:43:163:Google.Passive:In general, use active voice instead of passive voice ('is changed').
+README.md:43:163:write-good.Passive:'is changed' may be passive voice. Use active voice if you can.
+README.md:46:196:Google.Contractions:Use 'it's' instead of 'it is'.
+README.md:46:196:write-good.TooWordy:'it is' is too wordy.
+README.md:46:199:Google.Passive:In general, use active voice instead of passive voice ('is restored').
+README.md:46:199:write-good.Passive:'is restored' may be passive voice. Use active voice if you can.
+README.md:49:60:Google.Semicolons:Use semicolons judiciously.
+README.md:49:90:Google.Contractions:Use 'it's' instead of 'it is'.
+README.md:49:90:write-good.TooWordy:'it is' is too wordy.
+README.md:49:93:Google.Passive:In general, use active voice instead of passive voice ('is linked').
+README.md:49:93:write-good.Passive:'is linked' may be passive voice. Use active voice if you can.
+README.md:49:214:Vale.Spelling:Did you really mean 'BLOCKs'?
+README.md:49:250:Google.Semicolons:Use semicolons judiciously.
+README.md:49:279:Google.Acronyms:Spell out 'PASS', if it's unfamiliar to the audience.
+README.md:56:7:Google.EmDash:Don't put a space before or after a dash.
+README.md:63:20:Google.Acronyms:Spell out 'PASS', if it's unfamiliar to the audience.
+README.md:63:79:Google.Acronyms:Spell out 'PASS', if it's unfamiliar to the audience.
+README.md:63:190:Google.Contractions:Use 'isn't' instead of 'is not'.
+README.md:64:1:Google.WordList:Use 'command-line tool' instead of 'CLI'.
+README.md:65:82:Google.EmDash:Don't put a space before or after a dash.
+README.md:67:7:Google.EmDash:Don't put a space before or after a dash.
+README.md:77:55:Google.Anthropomorphism:Don't attribute human qualities to software or hardware ('sees').
+README.md:79:4:Google.Anthropomorphism:Don't attribute human qualities to software or hardware ('tells').
+README.md:79:36:Google.Contractions:Use 'hasn't' instead of 'has not'.
+README.md:81:234:Google.Contractions:Use 'hasn't' instead of 'has not'.
+README.md:84:40:write-good.TooWordy:'accelerate' is too wordy.
+README.md:85:96:Google.Passive:In general, use active voice instead of passive voice ('is approved').
+README.md:85:96:write-good.Passive:'is approved' may be passive voice. Use active voice if you can.
+README.md:86:38:Google.Passive:In general, use active voice instead of passive voice ('is recorded').
+README.md:86:38:write-good.Passive:'is recorded' may be passive voice. Use active voice if you can.
+README.md:89:58:Google.Semicolons:Use semicolons judiciously.
+README.md:91:30:Google.Contractions:Use 'they're' instead of 'they are'.
+README.md:91:35:Google.Passive:In general, use active voice instead of passive voice ('are listed').
+README.md:91:35:write-good.Passive:'are listed' may be passive voice. Use active voice if you can.
+README.md:95:4:Vale.Spelling:Did you really mean 'FH's'?
+README.md:95:105:Google.EmDash:Don't put a space before or after a dash.
+README.md:95:150:Google.Contractions:Use 'it's' instead of 'it is'.
+README.md:95:150:write-good.TooWordy:'it is' is too wordy.
+README.md:96:14:Vale.Spelling:Did you really mean 'FH's'?
+README.md:96:18:Google.EmDash:Don't put a space before or after a dash.
+README.md:96:47:Google.Contractions:Use 'doesn't' instead of 'does not'.
+README.md:96:62:Google.Passive:In general, use active voice instead of passive voice ('is listed').
+README.md:96:62:write-good.Passive:'is listed' may be passive voice. Use active voice if you can.
+README.md:100:44:Google.WordList:Use 'command-line tool' instead of 'CLI'.
+README.md:101:9:Google.WordList:Use 'command-line tool' instead of 'CLI'.
+README.md:101:48:Vale.Spelling:Did you really mean 'FH's'?
+README.md:104:26:Google.WordList:Use 'command-line tool' instead of 'CLI'.
+README.md:104:64:Google.Semicolons:Use semicolons judiciously.
+README.md:104:89:Google.Passive:In general, use active voice instead of passive voice ('is wasted').
+README.md:104:89:write-good.Passive:'is wasted' may be passive voice. Use active voice if you can.
+README.md:111:40:Google.Passive:In general, use active voice instead of passive voice ('are enforced').
+README.md:111:40:write-good.Passive:'are enforced' may be passive voice. Use active voice if you can.
+README.md:111:87:Google.Passive:In general, use active voice instead of passive voice ('is told').
+README.md:111:87:write-good.Passive:'is told' may be passive voice. Use active voice if you can.
+README.md:127:16:Google.Contractions:Use 'doesn't' instead of 'does not'.
+README.md:127:264:Google.Contractions:Use 'what's' instead of 'what is'.
+README.md:127:269:Google.Passive:In general, use active voice instead of passive voice ('is left').
+README.md:127:269:write-good.Passive:'is left' may be passive voice. Use active voice if you can.
+README.md:130:16:Google.Contractions:Use 'couldn't' instead of 'could not'.
+README.md:130:34:Google.Passive:In general, use active voice instead of passive voice ('is reported').
+README.md:130:34:write-good.Passive:'is reported' may be passive voice. Use active voice if you can.
+README.md:130:49:Google.Quotes:Commas and periods go inside quotation marks.
+README.md:131:29:Google.Passive:In general, use active voice instead of passive voice ('is written').
+README.md:131:29:write-good.Passive:'is written' may be passive voice. Use active voice if you can.
+README.md:133:72:Google.Semicolons:Use semicolons judiciously.
+README.md:139:24:Google.Semicolons:Use semicolons judiciously.
+README.md:139:117:Google.Passive:In general, use active voice instead of passive voice ('is built').
+README.md:139:117:write-good.Passive:'is built' may be passive voice. Use active voice if you can.
+README.md:141:60:Google.EmDash:Don't put a space before or after a dash.
+README.md:142:34:Google.Semicolons:Use semicolons judiciously.
+README.md:143:19:Google.Contractions:Use 'didn't' instead of 'did not'.
+README.md:143:34:Google.EmDash:Don't put a space before or after a dash.
+README.md:149:201:Google.Passive:In general, use active voice instead of passive voice ('is checked').
+README.md:149:201:write-good.Passive:'is checked' may be passive voice. Use active voice if you can.
+README.md:150:144:Google.Passive:In general, use active voice instead of passive voice ('are wired').
+README.md:150:144:write-good.Passive:'are wired' may be passive voice. Use active voice if you can.
+README.md:150:177:Google.Passive:In general, use active voice instead of passive voice ('be stepped').
+README.md:150:177:write-good.Passive:'be stepped' may be passive voice. Use active voice if you can.
+README.md:150:359:Google.Semicolons:Use semicolons judiciously.
+README.md:151:195:Google.Passive:In general, use active voice instead of passive voice ('being tuned').
+README.md:151:195:write-good.Passive:'being tuned' may be passive voice. Use active voice if you can.
+README.md:153:130:Google.Passive:In general, use active voice instead of passive voice ('was wired').
+README.md:153:130:write-good.Passive:'was wired' may be passive voice. Use active voice if you can.
+README.md:159:48:Google.WordList:Use 'command-line tool' instead of 'CLI'.
+README.md:160:103:write-good.TooWordy:'witnessed' is too wordy.
+README.md:162:51:Vale.Spelling:Did you really mean 'FH's'?
+README.md:164:157:Google.Semicolons:Use semicolons judiciously.
+README.md:165:12:Google.Passive:In general, use active voice instead of passive voice ('is graded').
+README.md:165:12:write-good.Passive:'is graded' may be passive voice. Use active voice if you can.
+README.md:170:14:Google.Will:Avoid using 'will'.
+README.md:172:5:Google.Contractions:Use 'don't' instead of 'do not'.
+README.md:172:50:Google.Passive:In general, use active voice instead of passive voice ('is built').
+README.md:172:50:write-good.Passive:'is built' may be passive voice. Use active voice if you can.
+README.md:173:47:Google.Semicolons:Use semicolons judiciously.
+README.md:177:89:Vale.Spelling:Did you really mean 'decorrelated'?
+README.md:178:139:Google.WordListCase:Use 'preceding' instead of 'above'.
+README.md:180:79:Google.Passive:In general, use active voice instead of passive voice ('was given').
+README.md:180:79:write-good.Passive:'was given' may be passive voice. Use active voice if you can.
+README.md:180:245:Google.WordListCase:Use 'preceding' instead of 'above'.
+README.md:181:5:Vale.Spelling:Did you really mean 'Decorrelation'?
+README.md:181:93:Google.Anthropomorphism:Don't attribute human qualities to software or hardware ('sees').
+pack=en level=wrapper-only findings=119 file=README.md

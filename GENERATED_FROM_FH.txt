@@ -1,0 +1,19 @@
+ko-tech-writer here is generated from forge-harness e2cd4664a30f9f5848c33331c008463ea735433a (origin/main) by scripts/regen_from_fh.sh.
+Edit it in forge-harness, not here. Paths:
+.fh-export/MODULE.md
+.fh-export/fh-module.yaml
+plugins/fh-commons/skills/ko-tech-writer/SKILL.md
+plugins/fh-commons/skills/ko-tech-writer/SKILL_detail.md
+plugins/fh-commons/skills/ko-tech-writer/fh-module.yaml
+plugins/fh-commons/skills/ko-tech-writer/fixtures/known_negative.md
+plugins/fh-commons/skills/ko-tech-writer/fixtures/known_positive.md
+plugins/fh-commons/skills/ko-tech-writer/fixtures/known_unclosed.md
+plugins/fh-commons/skills/ko-tech-writer/fixtures/rewrite_clean.md
+plugins/fh-commons/skills/ko-tech-writer/fixtures/rewrite_drops_metaphor.md
+plugins/fh-commons/skills/ko-tech-writer/fixtures/rewrite_invents_number.md
+plugins/fh-commons/skills/ko-tech-writer/fixtures/rewrite_keep.txt
+plugins/fh-commons/skills/ko-tech-writer/fixtures/rewrite_original.md
+plugins/fh-commons/skills/ko-tech-writer/fixtures/sense_negative.md
+plugins/fh-commons/skills/ko-tech-writer/fixtures/sense_positive.md
+scripts/ko_tech_writer_calibrate.py
+scripts/test_ko_tech_writer_lanes.sh

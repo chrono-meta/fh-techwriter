@@ -1,0 +1,12 @@
+{
+  "name": "fh-techwriter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multilingual technical-writer harness born from forge-harness",
+  "license": "MIT",
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-preset-ai-writing": "^1.7.0",
+    "textlint": "^15.8.0",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
+  }
+}

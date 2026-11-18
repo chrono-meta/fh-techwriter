@@ -1,0 +1,110 @@
+openhuman_README.md:1:20:Google.Headings:'OpenHuman' should use sentence-style capitalization.
+openhuman_README.md:9:97:Vale.Spelling:Did you really mean 'Trendshift'?
+openhuman_README.md:29:103:Google.OxfordComma:Use the Oxford comma in ', simple and powerful.'.
+openhuman_README.md:42:191:Vale.Spelling:Did you really mean 'Deutsch'?
+openhuman_README.md:48:162:Google.Timeless:Avoid time-based words like 'Latest' in product documentation.
+openhuman_README.md:54:71:Vale.Spelling:Did you really mean 'Deutsch'?
+openhuman_README.md:57:19:Google.Colons:'Under' should be in lowercase.
+openhuman_README.md:59:42:Google.Colons:'OpenHuman' should be in lowercase.
+openhuman_README.md:59:315:Google.WordListCase:Use 'OAuth 2.0' instead of 'OAuth'.
+openhuman_README.md:59:339:Vale.Spelling:Did you really mean 'Composio'?
+openhuman_README.md:59:442:Vale.Spelling:Did you really mean 'Composio'?
+openhuman_README.md:59:462:Google.Semicolons:Use semicolons judiciously.
+openhuman_README.md:63:270:Google.Passive:In general, use active voice instead of passive voice ('are preferred').
+openhuman_README.md:63:270:write-good.Passive:'are preferred' may be passive voice. Use active voice if you can.
+openhuman_README.md:63:283:Google.EmDash:Don't put a space before or after a dash.
+openhuman_README.md:67:121:Google.Acronyms:Spell out 'MSI', if it's unfamiliar to the audience.
+openhuman_README.md:76:23:Google.EmDash:Don't put a space before or after a dash.
+openhuman_README.md:89:14:Google.EmDash:Don't put a space before or after a dash.
+openhuman_README.md:89:17:Google.Acronyms:Spell out 'AUR', if it's unfamiliar to the audience.
+openhuman_README.md:89:46:Google.Acronyms:Spell out 'AUR', if it's unfamiliar to the audience.
+openhuman_README.md:91:51:Google.Timeless:Avoid time-based words like 'latest' in product documentation.
+openhuman_README.md:93:108:Google.Timeless:Avoid time-based words like 'latest' in product documentation.
+openhuman_README.md:95:126:Google.EmDash:Don't put a space before or after a dash.
+openhuman_README.md:95:254:Google.WordListCase:Use 'preceding' instead of 'above'.
+openhuman_README.md:99:12:Google.EmDash:Don't put a space before or after a dash.
+openhuman_README.md:99:51:Google.Passive:In general, use active voice instead of passive voice ('are served').
+openhuman_README.md:99:51:write-good.Passive:'are served' may be passive voice. Use active voice if you can.
+openhuman_README.md:99:104:Google.Contractions:Use 'don't' instead of 'do not'.
+openhuman_README.md:99:268:Google.WordListCase:Use 'preceding' instead of 'above'.
+openhuman_README.md:109:36:Google.Timeless:Avoid time-based words like 'soon' in product documentation.
+openhuman_README.md:111:71:Google.Will:Avoid using 'will'.
+openhuman_README.md:111:184:write-good.TooWordy:'equivalent' is too wordy.
+openhuman_README.md:111:230:Google.Passive:In general, use active voice instead of passive voice ('be made').
+openhuman_README.md:111:230:write-good.Passive:'be made' may be passive voice. Use active voice if you can.
+openhuman_README.md:113:3:Google.Contractions:Use 'what's' instead of 'What is'.
+openhuman_README.md:113:3:Google.Headings:'What is OpenHuman?' should use sentence-style capitalization.
+openhuman_README.md:115:17:Google.WordListCase:Use 'open source' instead of 'open-source'.
+openhuman_README.md:117:142:Google.EmDash:Don't put a space before or after a dash.
+openhuman_README.md:119:318:Google.WordListCase:Use 'OAuth 2.0' instead of 'OAuth'.
+openhuman_README.md:119:344:Google.Passive:In general, use active voice instead of passive voice ('is exposed').
+openhuman_README.md:119:344:write-good.Passive:'is exposed' may be passive voice. Use active voice if you can.
+openhuman_README.md:121:40:Vale.Spelling:Did you really mean 'Composio'?
+openhuman_README.md:121:66:Google.WordListCase:Use 'OAuth 2.0' instead of 'OAuth'.
+openhuman_README.md:121:110:Google.Passive:In general, use active voice instead of passive voice ('are proxied').
+openhuman_README.md:121:110:write-good.Passive:'are proxied' may be passive voice. Use active voice if you can.
+openhuman_README.md:121:181:Vale.Spelling:Did you really mean 'Composio'?
+openhuman_README.md:121:244:Vale.Spelling:Did you really mean 'Composio'?
+openhuman_README.md:121:260:Google.Semicolons:Use semicolons judiciously.
+openhuman_README.md:121:302:Google.Passive:In general, use active voice instead of passive voice ('be hosted').
+openhuman_README.md:121:302:write-good.Passive:'be hosted' may be passive voice. Use active voice if you can.
+openhuman_README.md:123:258:Google.Passive:In general, use active voice instead of passive voice ('is canonicalized').
+openhuman_README.md:123:258:write-good.Passive:'is canonicalized' may be passive voice. Use active voice if you can.
+openhuman_README.md:123:261:Vale.Spelling:Did you really mean 'canonicalized'?
+openhuman_README.md:123:507:Vale.Spelling:Did you really mean 'Karpathy's'?
+openhuman_README.md:125:259:Google.Acronyms:Spell out 'STT', if it's unfamiliar to the audience.
+openhuman_README.md:125:278:Google.Acronyms:Spell out 'TTS', if it's unfamiliar to the audience.
+openhuman_README.md:125:328:Google.Passive:In general, use active voice instead of passive voice ('are wired').
+openhuman_README.md:125:328:write-good.Passive:'are wired' may be passive voice. Use active voice if you can.
+openhuman_README.md:125:502:Google.Acronyms:Spell out 'LLM', if it's unfamiliar to the audience.
+openhuman_README.md:127:178:Google.Passive:In general, use active voice instead of passive voice ('is run').
+openhuman_README.md:127:178:write-good.Passive:'is run' may be passive voice. Use active voice if you can.
+openhuman_README.md:127:241:Google.Acronyms:Spell out 'LLM', if it's unfamiliar to the audience.
+openhuman_README.md:127:257:Google.Passive:In general, use active voice instead of passive voice ('is converted').
+openhuman_README.md:127:257:write-good.Passive:'is converted' may be passive voice. Use active voice if you can.
+openhuman_README.md:127:293:Google.Passive:In general, use active voice instead of passive voice ('are shortened').
+openhuman_README.md:127:293:write-good.Passive:'are shortened' may be passive voice. Use active voice if you can.
+openhuman_README.md:127:332:Google.Passive:In general, use active voice instead of passive voice ('is deduped').
+openhuman_README.md:127:332:write-good.Passive:'is deduped' may be passive voice. Use active voice if you can.
+openhuman_README.md:127:393:Google.Ellipses:In general, don't use an ellipsis.
+openhuman_README.md:127:397:Google.Acronyms:Spell out 'CJK', if it's unfamiliar to the audience.
+openhuman_README.md:127:435:Google.Passive:In general, use active voice instead of passive voice ('are preserved').
+openhuman_README.md:127:435:write-good.Passive:'are preserved' may be passive voice. Use active voice if you can.
+openhuman_README.md:127:469:Google.EmDash:Don't put a space before or after a dash.
+openhuman_README.md:135:94:Vale.Spelling:Did you really mean 'ripgrep'?
+openhuman_README.md:136:124:Google.Acronyms:Spell out 'CEF', if it's unfamiliar to the audience.
+openhuman_README.md:139:15:Google.Colons:'Architecture' should be in lowercase.
+openhuman_README.md:139:183:Google.WordList:Use 'Google Cloud Platform' or 'GCP' instead of 'Cloud'.
+openhuman_README.md:143:85:Vale.Spelling:Did you really mean 'Karpathy's'?
+openhuman_README.md:143:96:Google.Acronyms:Spell out 'LLM', if it's unfamiliar to the audience.
+openhuman_README.md:143:100:Vale.Spelling:Did you really mean 'Knowledgebase'?
+openhuman_README.md:143:225:Google.Semicolons:Use semicolons judiciously.
+openhuman_README.md:149:73:Google.Semicolons:Use semicolons judiciously.
+openhuman_README.md:153:155:Google.Quotes:Commas and periods go inside quotation marks.
+openhuman_README.md:155:20:Vale.Spelling:Did you really mean 'agentmemory'?
+openhuman_README.md:155:165:Google.EmDash:Don't put a space before or after a dash.
+openhuman_README.md:155:327:Vale.Spelling:Did you really mean 'agentmemory'?
+openhuman_README.md:157:4:Google.Headings:'OpenHuman vs Other Agent Harnesses' should use sentence-style capitalization.
+openhuman_README.md:159:83:Google.Passive:In general, use active voice instead of passive voice ('is built').
+openhuman_README.md:159:83:write-good.Passive:'is built' may be passive voice. Use active voice if you can.
+openhuman_README.md:159:97:write-good.TooWordy:'minimize' is too wordy.
+openhuman_README.md:161:32:Vale.Spelling:Did you really mean 'Cowork'?
+openhuman_README.md:163:5:Google.WordListCase:Use 'open source' instead of 'Open-source'.
+openhuman_README.md:163:46:Google.Acronyms:Spell out 'MIT', if it's unfamiliar to the audience.
+openhuman_README.md:163:65:Google.Acronyms:Spell out 'MIT', if it's unfamiliar to the audience.
+openhuman_README.md:163:84:Google.Acronyms:Spell out 'GNU', if it's unfamiliar to the audience.
+openhuman_README.md:164:37:Google.WordList:Use 'command-line tool' instead of 'CLI'.
+openhuman_README.md:165:48:Google.Acronyms:Spell out 'BYO', if it's unfamiliar to the audience.
+openhuman_README.md:165:68:Google.Acronyms:Spell out 'BYO', if it's unfamiliar to the audience.
+openhuman_README.md:166:125:Vale.Spelling:Did you really mean 'agentmemory'?
+openhuman_README.md:167:48:Google.Acronyms:Spell out 'BYO', if it's unfamiliar to the audience.
+openhuman_README.md:167:68:Google.Acronyms:Spell out 'BYO', if it's unfamiliar to the audience.
+openhuman_README.md:167:96:Google.WordListCase:Use 'OAuth 2.0' instead of 'OAuth'.
+openhuman_README.md:169:46:Google.Acronyms:Spell out 'BYOK', if it's unfamiliar to the audience.
+openhuman_README.md:173:3:Google.Headings:'Star us on GitHub' should use sentence-style capitalization.
+openhuman_README.md:173:8:Google.We:Try to avoid using first-person plural like 'us'.
+openhuman_README.md:175:18:Google.Acronyms:Spell out 'AGI', if it's unfamiliar to the audience.
+openhuman_README.md:187:3:Google.Headings:'Contributors Hall of Fame' should use sentence-style capitalization.
+openhuman_README.md:189:70:Vale.Spelling:Did you really mean 'merch'?
+openhuman_README.md:189:98:Google.We:Try to avoid using first-person plural like 'our'.
+pack=en level=wrapper-only findings=109 file=openhuman_README.md
